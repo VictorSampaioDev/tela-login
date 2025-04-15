@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  main {
+    position: relative;
+    display: flex;
+    justify-content: space-between; /* separa os dois lados */
+    height: 100vh;
+    overflow: hidden;
+    padding: 40px; /* espaçamento interno */
+  }
+  
+  main::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("assets/gengar2.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+  }
+  
+  .container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* alinha à esquerda */
+    color: white;
+    padding: 40px 60px;
+    gap: 15px;
+    width: 50%;
+  }
+  
+  .container-left h1 {
+    font-size: 50px;
+  }
+  
+  .container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  
+  
+  .teste-gratis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 40px;
+    background-color: rgb(215, 153, 228);
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    border-radius: 10px;
+    margin-bottom: 25px;
+  }
+  
+  .teste-gratis p {
+    text-align: center;
+  }
+  
+  .forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%
+    height: 500px;
+ 
+  }
+  
+  .forms input {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 8px 20px;
+    background-color: rgb(225, 179, 235);
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 15px auto;
+  }
+  
+  .check {
+    display: flex;
+    align-items: flex-start
+  }
+
+  .check p{
+    font-size: 10px
+  }
+  
