@@ -1,0 +1,50 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+width: 100%;
+font-family: "Open Sans", sans-serif;
+}
+
+main {
+    background-image: url("assets/gengar1.jpg");
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+}
+
+.container-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 40px 60px;
+    gap: 15px;
+}
+
+.container-left h1{
+    font-size: 50px;
+}
+
+.container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 120px;
+}
+
+.teste-gratis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 40px;
+    background-color: rgb(154, 85, 220);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+}
+.teste-gratis p{
+    text-align: center;
+}
